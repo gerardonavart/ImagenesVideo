@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Expo"
+             xmlns:forms ="clr-namespace:InTheHand.Forms;assembly=InTheHand.Forms"
+             x:Class="Expo.MainPage">
+
+    <StackLayout>
+
+        <Label Text="Welcome to Xamarin.Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        <Image Source="Logo.png" WidthRequest="30" HeightRequest="100"/>
+        <!--forms:MediaElement HorizontalOptions ="Fill" VerticalOptions="Center" 
+                            HeightRequest="240" x:Name="Media" 
+                            AreTransportControlsEnabled="true" 
+                            Source="http://video.ch9.ms/ch9/334f/891b78a5-642d-40b4-8d02-ff40ffdd334f/LoginToLinkedinUSingXamarinAuth_mid.mp4"/>-->
+        <forms:MediaElement HorizontalOptions ="Fill" VerticalOptions="Center" 
+                            HeightRequest="240" x:Name="Media" 
+                            AreTransportControlsEnabled="true" 
+                            Source="https://goo.gl/pfizYD"/>
+        <Button x:Name="audio" Clicked=""/>
+    </StackLayout>
+
+</ContentPage>
